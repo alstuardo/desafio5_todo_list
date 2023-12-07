@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+main{
+    background-color: wheat;
+    height: 680px;
+    margin: 50px;
+}
+
+h2{
+    padding: 50px;
+    font-size: 50px;
+}
+hr{
+    width: 100%;
+    border: 3px solid gray;
+    margin-bottom: 50px;
+}
+
+#sub{
+    font-style: italic;
+    font-weight: 700;
+}
+
+p{
+    margin-left: 50px;
+    font-size: 25px;
+}
+input{
+    display:inline-block;
+    width: 1000px;
+    height: 35px;
+    margin: 5px 0 0 50px;
+    font-size: 20px;
+}
+
+button{
+    background-color: green;
+    color: aliceblue;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.first{
+    display: flex;
+    gap: 10px;
+    }
+
+.second{
+display: flex;
+}
+
+#status{
+    margin-top: 50px;
+    width: 600px;
+}
+
+#taskList{
+    margin-top: 50px;
+    width: 600px;
+}
+
+ul{
+    font-size: 25px;
+    font-weight: bold;
+}
+th{
+    margin-right: 100px;
+}
+
+li{
+    font-size: 25px;
+    list-style: none;
+    font-weight: 100;
+}
