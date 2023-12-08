@@ -37,13 +37,14 @@ btnAdd.addEventListener('click', () =>{
 //CONTADOR TAREAS
 function updateTask() {
 const taskCounter = document.querySelector('#taskCounter');
-taskCounter.textContent = tasks.length} ;
+taskCounter.textContent = `Total tareas: ${tasks.length}`
+} ;
 
 //CONTADOR TAREAS REALIZADAS
 function updateTaskDone() {
 const taskDone = document.querySelector('#taskDone');
 const Done = tasks.filter(task => task.isSelected === true);
-taskDone.textContent = Done.length;
+taskDone.textContent = `Tareas realizadas: ${Done.length}`;
 }
 
 //CAMBIO DE ESTATUS CHECKBOX
