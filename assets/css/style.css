@@ -27,6 +27,7 @@ hr{
 #sub{
     font-style: italic;
     font-weight: 700;
+    margin-left: 50px;
 }
 
 p{
@@ -60,7 +61,7 @@ display: flex;
 }
 
 #status{
-    margin-top: 50px;
+    margin: 50px 0 0 50px;
     width: 600px;
 }
 
@@ -69,16 +70,28 @@ display: flex;
     width: 600px;
 }
 
-ul{
-    font-size: 25px;
+#headList{
     font-weight: bold;
+    display: flex;
+    gap: 150px;
 }
-th{
-    margin-right: 100px;
+#headList, p{
+    margin: 0;
 }
 
-li{
-    font-size: 25px;
-    list-style: none;
-    font-weight: 100;
+#check{
+    width: 15px;
+    margin-right: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content:space-around;
+    gap: 0px;
+}
+.info :first-child{
+    width: 260px;
+}
+.info :nth-child(2){
+    width: 300px;
 }
